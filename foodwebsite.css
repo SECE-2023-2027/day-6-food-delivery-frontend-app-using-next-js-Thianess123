@@ -1,0 +1,120 @@
+/* Food Website UI Styles */
+.fw-container {
+  padding: 32px 0 0 0;
+}
+.fw-carousel-section {
+  margin: 40px 0 32px 0;
+}
+.fw-carousel-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  margin-left: 12px;
+}
+.fw-carousel-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.fw-carousel-arrow {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(60, 72, 88, 0.08);
+  margin: 0 8px;
+  transition: background 0.2s;
+}
+.fw-carousel-arrow:active {
+  background: #f3f4f6;
+}
+.fw-carousel-track {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 8px;
+}
+.fw-carousel-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(60, 72, 88, 0.10);
+  padding: 12px 12px 8px 12px;
+  min-width: 200px;
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.fw-carousel-image {
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #f3f4f6;
+}
+.fw-carousel-card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #3b3b3b;
+}
+
+.fw-restaurant-section {
+  margin: 48px 0 0 0;
+}
+.fw-restaurant-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  margin-left: 12px;
+}
+.fw-restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: flex-start;
+  margin-top: 12px;
+}
+.fw-restaurant-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(60, 72, 88, 0.10);
+  padding: 16px 16px 10px 16px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.fw-restaurant-image {
+  width: 180px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #f3f4f6;
+}
+.fw-restaurant-card-title {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #3b3b3b;
+  margin-bottom: 2px;
+}
+.fw-restaurant-desc {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 2px;
+}
+.fw-restaurant-price {
+  font-size: 0.93rem;
+  color: #6366f1;
+  font-weight: 500;
+}
